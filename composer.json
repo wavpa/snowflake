@@ -1,0 +1,25 @@
+{
+    "name": "wavpa/snowflake",
+    "description": "Snowflake ID Generator",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wanglf727",
+            "email": "906259933@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Wavpa\\Snowflake\\": "./src/"
+        }
+    },
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Wavpa\\Snowflake\\ServiceProvider"
+            ]
+        }
+    }
+}
